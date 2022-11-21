@@ -1,0 +1,77 @@
+#authBlock article{
+    background-color: #fff;
+    height: 80vh;
+    display: flex;
+    /* flex-direction: column; */
+    padding: 20px;
+    border-radius: 3px;
+    margin: 20px auto;
+    width: 90%;
+}
+.authLeft{
+    flex-basis: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    padding: 30px;
+   border-right: 2px solid #efefef;
+
+}
+.authRight{
+    flex-basis: 60%;
+    background-color: #fff;
+    padding: 60px 40px;
+    
+}
+.authRight form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+.authRight form div{
+    flex-basis: 47%;
+  
+}
+.authRight form label{
+    word-wrap: 100%;
+    font-weight: bold;
+    font-size:15px;
+    color: deeppink;
+    display: block;
+    padding: 10px 0;
+}
+
+.authRight form  input{
+width: 100%;
+display: block;
+padding: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin: 20px 0;
+}
+
+.authRight form div:last-child{
+    flex-basis: 100% !important;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.authRight form button{
+    /* width: 100%; */
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6739b7;
+    color: #fff;
+    border: 1px solid #6739b7;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.authRight form button:hover{
+    background-color: transparent;
+    color: #6739b7;
+    border: 1px solid #6739b7;
+}

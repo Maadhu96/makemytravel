@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=Lato&family=Poppins&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #efefef;
+    font-family: sans-serif;
+}
+
+.active{
+    background-color: #6739b7;
+    color: #fff !important;
+    border: 1px solid #6739b7;
+}
